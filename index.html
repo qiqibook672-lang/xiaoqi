@@ -2,25 +2,26 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>xiaoqi</title>
+  <title>img 小七</title>
   <style>
     html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
+      margin: 0;   /* 去掉浏览器默认给网页加的“外边距白边” */
+      padding: 0;   /* 去掉默认的内边距 */
     }
 
-    body {
-      background-image: url("xiao001.jpg");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+    img {
+      width: 100%;      /* 图片宽度 = 屏幕宽度 */
+      height: auto;     /* 高度按比例自动算 */
+      display: block;   /* 去掉图片底部的空隙 */
     }
   </style>
 </head>
 <body>
+
+  <img src="xiao001.jpg" alt="示例图片">
+
 </body>
 </html>
+
 
 
